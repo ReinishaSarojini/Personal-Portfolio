@@ -1,0 +1,176 @@
+.bgTheme
+{
+    background-color: rgb(26, 26, 59);
+    color:white important;
+}
+
+#home img
+{
+    position: relative;
+    top:50%;
+    border-radius: 50%;
+}
+
+nav{
+    background-color: white !important;
+}
+
+nav a:hover{
+    color:red !important;
+    text-shadow: 2px 2px 3px black;
+}
+.name
+{
+    position: relative;
+    top:20%;
+    right:50%;
+    color:white;
+}
+
+.wrapper
+{
+    display: inline-flex;
+}
+
+.wrapper .dynamic-txt
+{
+    margin-left: 15px;
+    height: 70px;
+    line-height: 70px;
+    overflow: hidden;
+}
+
+.dynamic-txt li{
+    list-style: none;
+    color: red;
+    position: relative;
+    top:0;
+    animation: slide 6s steps(3) infinite;
+}
+
+@keyframes slide {
+    100%{
+        top: -215px
+    }
+}
+
+.dynamic-txt li span
+{
+    position: relative;
+}
+
+.dynamic-txt li span::after
+{
+    content: "";
+    position: absolute;
+    left:0%;
+    height: 100%;
+    background: rgb(26, 26, 59);
+    width: 100%;
+    animation: typing 2s steps(32) infinite;
+}
+
+@keyframes typing {
+    100%{
+        left: 100%;
+        margin: 0 -37px 0 -37px;
+    }
+    
+}
+
+.homeClass
+{
+    color: white;
+    position: relative;
+    left: 4%;
+    top: 70%;
+    font-size: 45px;
+}
+
+.homeClass a
+{
+    position:relative;
+    left: 20%;
+}
+
+header
+{
+    font-size: 35px;
+    color: red;
+    margin-left: 20%;
+}
+.listAllignment li
+{
+    margin-top: 2%;
+}
+
+#about table
+{
+    border: 1px solid royalblue !important;
+}
+#about
+{
+   position: relative;
+   margin-top:20%;
+    color:white;
+}
+
+#services
+{
+    position: relative;
+    margin-top: 2%
+}
+
+#services header
+{
+    margin-left: 38%;
+}
+
+
+#services p{
+    text-align: center;
+}
+
+#work
+{
+    position: relative;
+    top:10%;
+    margin-left: 25%;
+}
+
+#work header{
+    margin-top:6%;
+    margin-left: 25%;
+    margin-bottom: 3%;
+}
+
+#work div
+{
+    margin-right: 6%;
+    margin-bottom: 2%;
+}
+
+#contact 
+{
+    position: relative;
+    bottom:0%;
+    width: 100%;
+    padding-top:1%;
+    height: 8%;
+    background-color: white;
+}
+
+#work h5
+{
+    text-align: center;
+}
+
+#contact .logos{
+    margin-left: 30%;
+}
+
+#contact .logos img
+{
+    border-radius: 10%;
+    
+}
